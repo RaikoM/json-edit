@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HeaderNav from './HeaderNav';
-import Form from './Form';
-import Editor from './Editor';
-import TreeSearch from './TreeSearch';
+import { Editor, Form, HeaderNav, TreeSearch } from './components';
 
 function App() {
   return (

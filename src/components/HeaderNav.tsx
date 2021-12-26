@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { classNames } from './utils';
+import { classNames } from '../utils';
 
 const navigation = [
   { name: 'Form', href: '/' },
@@ -23,7 +23,7 @@ const HeaderNav = ({ children }: HeaderNavProps) => {
             <Link
               className={classNames(
                 pathname === route.href ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                'px-3 py-2 rounder-md text-sm font-medium'
+                'px-3 py-2 rounded-md text-sm font-medium'
               )}
               to={route.href}
               key={route.name}
