@@ -50,10 +50,6 @@ const Editor = () => {
         highlightActiveLine={true}
         value={editorValue}
         setOptions={{
-          enableBasicAutocompletion: false,
-          enableLiveAutocompletion: false,
-          enableSnippets: true,
-          showLineNumbers: true,
           tabSize: 2
         }}
       />
